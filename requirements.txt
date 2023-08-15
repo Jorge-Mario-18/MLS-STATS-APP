@@ -1,0 +1,12 @@
+matplotlib
+numpy
+bs4
+beautifulsoup
+requests
+lxml
+html5lib
+seaborn
+plotly
+plotly.express
+time
+colorcet
