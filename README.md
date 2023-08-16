@@ -1,6 +1,6 @@
 # MLS-STATS-APP
 
-This is my latests project using the Streamlit framework. I created a dashboard showing various stats from Major League Soccer. I scraped the MLS Data from Sports-Reference.com to 
+This is my latest project using the Streamlit framework. I created a dashboard showing various stats from Major League Soccer. I scraped the MLS Data from Sports-Reference.com to 
 get the latest tables using beautifulsoup. I then used plotly express to create different visualizations 
 showing both xG, Goal Difference, and Goals scored. I experimented with different libraries such as Seaborn, 
 Matplotlib, and Plotly. These libraries have there own advantages and disadvantages and I've had most of my 
