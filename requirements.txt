@@ -1,6 +1,5 @@
 matplotlib
 numpy
-bs4
 beautifulsoup
 requests
 lxml
