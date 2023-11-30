@@ -11,4 +11,6 @@ Eastern and Western Conference and plot the different categories on an X and Y a
 found this project to be extremely enjoyable as I was able to see in real time how my code change on Streamlit. I was also happy that 
 there was a plethora of different documentation available whenever I got stuck. I'll defiantly be incorporating Streamlit in the future! 
 
+You can view the app/dashboard here: https://mls-stats-restrepo.streamlit.app/
+
 - Jorge Mario Restrepo
