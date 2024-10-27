@@ -41,7 +41,7 @@ table_e = table_e.drop(["Notes"], axis=True)
 url_w = "https://fbref.com/en/comps/22/2023/2023-Major-League-Soccer-Stats"
 r_w = requests.get(url_w)
 soup_w = bs(r_w.content)
-table_w = soup_w.find_all("table", id="results2023221Western-Conference_overall")
+table_w = soup_w.find_all("table", id="div_results2023221Western-Conference_overall")
 table_w = pd.read_html(str(table_w))
 table_w = table_w[0]
 table_w.index = table_w["Rk"]
