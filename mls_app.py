@@ -27,7 +27,7 @@ st.write(
 )
 
 
-url_e = "https://fbref.com/en/comps/22/Major-League-Soccer-Stats"
+url_e = "https://fbref.com/en/comps/22/2023/2023-Major-League-Soccer-Stats"
 r_e = requests.get(url_e)
 soup_e = bs(r_e.content)
 table_e = soup_e.find_all("table", id="results2023221Eastern-Conference_overall")
@@ -38,7 +38,7 @@ table_e = table_e.drop(["Rk"], axis=True)
 table_e = table_e.drop(["Notes"], axis=True)
 
 
-url_w = "https://fbref.com/en/comps/22/Major-League-Soccer-Stats"
+url_w = "https://fbref.com/en/comps/22/2023/2023-Major-League-Soccer-Stats"
 r_w = requests.get(url_w)
 soup_w = bs(r_w.content)
 table_w = soup_w.find_all("table", id="results2023221Western-Conference_overall")
