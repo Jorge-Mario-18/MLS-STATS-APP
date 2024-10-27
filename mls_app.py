@@ -47,6 +47,7 @@ table_w = table_w[0]
 table_w.index = table_w["Rk"]
 table_w = table_w.drop(["Rk"], axis=True)
 table_w = table_w.drop(["Notes"], axis=True)
+
 st.divider()
 st.subheader("Eastern Conference")
 col1, col2, col3 = st.columns(3)
