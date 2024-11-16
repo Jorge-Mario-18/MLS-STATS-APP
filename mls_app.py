@@ -29,7 +29,7 @@ st.write(
 
 url_e = "https://fbref.com/en/comps/22/2023/2023-Major-League-Soccer-Stats"
 r_e = requests.get(url_e)
-soup_e = bs(r_e.content)
+soup_e = bs(r_e.content, features="lxml")
 table_e = soup_e.find_all("table", id="results2023221Eastern-Conference_overall")
 table_e = pd.read_html(str(table_e))
 table_e = table_e[0]
@@ -40,8 +40,8 @@ table_e = table_e.drop(["Notes"], axis=True)
 
 url_w = "https://fbref.com/en/comps/22/2023/2023-Major-League-Soccer-Stats"
 r_w = requests.get(url_w)
-soup_w = bs(r_w.content)
-table_w = soup_w.find_all("table", id="div_results2023221Western-Conference_overall")
+soup_w = bs(r_w.content, features="lxml")
+table_w = soup_w.find_all("table", id="results2023221Western-Conference_overall")
 table_w = pd.read_html(str(table_w))
 table_w = table_w[0]
 table_w.index = table_w["Rk"]
@@ -81,7 +81,6 @@ st.write(table_e)
 st.header("Western Conference Standings")
 st.write(table_w)
 
-st.set_option("deprecation.showPyplotGlobalUse", False)
 
 st.divider()
 
