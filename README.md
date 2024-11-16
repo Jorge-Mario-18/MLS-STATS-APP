@@ -1,16 +1,23 @@
 # MLS-STATS-APP
 
-This is my latest project using the Streamlit framework. I created a dashboard showing various stats from Major League Soccer. I scraped the MLS Data from Sports-Reference.com to 
-get the latest tables using beautifulsoup. I then used plotly express to create different visualizations 
-showing both xG, Goal Difference, and Goals scored. I experimented with different libraries such as Seaborn, 
-Matplotlib, and Plotly. These libraries have there own advantages and disadvantages and I've had most of my 
-experience working with Matplotlib. In this case I decided to use Plotly as I found it to match overall the aesthetic of Streamlit.
-Lastly Streamlit made it very easy for someone else to create their own visualizations 
-combining different categories provided from the data. I used radio buttons where a user can choose between the 
-Eastern and Western Conference and plot the different categories on an X and Y axis. You can see how some factors relate to others. I 
-found this project to be extremely enjoyable as I was able to see in real time how my code change on Streamlit. I was also happy that 
-there was a plethora of different documentation available whenever I got stuck. I'll defiantly be incorporating Streamlit in the future! 
+This is my latest project built using the Streamlit framework. The dashboard provides various statistics from Major League Soccer (MLS), including key metrics such as xG, Goal Difference, and Goals Scored.
+Project Overview
 
-You can view the app/dashboard here: https://mls-stats-restrepo.streamlit.app/
+    Data Collection: I scraped MLS data from Sports-Reference.com using BeautifulSoup to retrieve the latest standings and team statistics.
+    Visualizations: I created interactive visualizations with Plotly Express, displaying insights such as xG, Goal Difference, and Goals Scored. The use of Streamlit makes it easy for users to interact with these visualizations.
+    Libraries Used: I explored multiple libraries, including Seaborn, Matplotlib, and Plotly, weighing their pros and cons. While I have extensive experience with Matplotlib, I opted for Plotly for this project due to its seamless integration with Streamlit and its visual appeal.
 
-- Jorge Mario Restrepo
+Key Features
+
+    User-Generated Visualizations: I implemented interactive features allowing users to customize their visualizations. With radio buttons, users can choose between the Eastern and Western conferences and select different categories to plot on the X and Y axes.
+    Real-Time Feedback: Streamlit made it easy to see changes to the code in real time, which greatly enhanced the development process.
+    Data Exploration: Users can explore the relationship between different statistics and gain insights from the MLS dataset.
+
+Why Streamlit?
+
+    I thoroughly enjoyed working with Streamlit. It provided a fast and intuitive way to turn scripts into interactive dashboards. The wealth of available documentation helped me troubleshoot and iterate quickly. I will definitely be incorporating Streamlit into future projects!
+
+View the App
+
+You can view the app and interact with the dashboard here:
+MLS Stats Dashboard
