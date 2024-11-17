@@ -28,4 +28,4 @@ Data Exploration: Users can explore the relationship between different statistic
 View the App
 
 You can view the app and interact with the dashboard here:
-MLS Stats Dashboard
+[MLS Stats Dashboard](https://mls-stats-restrepo.streamlit.app/)
