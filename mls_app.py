@@ -15,7 +15,7 @@ import colorcet as cc
 
 st.image("mls_crest.png")
 
-st.title("Current Table in the MLS")
+st.title("2023 Table in the MLS")
 
 st.write(
     "This dashboard contains general stats from Major League Soccer. "
